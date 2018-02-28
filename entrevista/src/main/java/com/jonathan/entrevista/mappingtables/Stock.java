@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
-@Entity(name = "STOCK")
+@Entity(name = "stock")
 public class Stock {
 
 	@Id

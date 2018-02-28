@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-@Entity(name = "PRODUCTOS")
+@Entity(name = "productos")
 public class Productos {
 
 	@Id
@@ -29,7 +29,7 @@ public class Productos {
 	private String marca;
 
 	@ManyToOne
-	@JoinColumn(name = "id_tipo_producto")
+	@JoinColumn(name = "id_tipo_productos")
 	private TipoProductos tipoProductos;
 
 	/*

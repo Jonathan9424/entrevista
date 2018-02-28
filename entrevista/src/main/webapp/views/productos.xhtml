@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Acciones productos</title>
+</h:head>
+<body>
+	<p:fieldset legend="Acciones para los Productos">
+		<h:form>
+			<p:fieldset>
+				<p:dataTable id="tblpro"
+					value="#{productosController.productosLista()}" var="prod"
+					paginator="true" rows="4"
+					paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+					rowsPerPageTemplate="5,10,15">
+					<p:column headerText="ID">
+						<h:outputText value="#{prod.idProducto}" />
+					</p:column>
+					<p:column headerText="Nombre">
+						<h:outputText value="#{prod.nombre}" />
+					</p:column>
+					<p:column headerText="Medidas">
+						<h:outputText value="#{prod.medidas}" />
+					</p:column>
+					<p:column headerText="Tipo material">
+						<h:outputText value="#{prod.tipoMaterial}" />
+					</p:column>
+					<p:column headerText="Marca">
+						<h:outputText value="#{prod.marca}" />
+					</p:column>
+					<p:column headerText="Tipo producto">
+						<h:outputText value="#{prod.tiposProductos.nombre}" />
+					</p:column>
+				</p:dataTable>
+			</p:fieldset>
+
+			<p:fieldset legend="agregar producto">
+				<p:outputLabel for="nombre" value="Nombre">
+					<p:inputText id="nombre"
+						value="#{productosController.productos.nombre}" />
+				</p:outputLabel>
+				<br />
+				<p:outputLabel for="medidas" value="Medidas">
+					<p:inputText id="medidas"
+						value="#{productosController.productos.medidas}" />
+				</p:outputLabel>
+				<br />
+				<p:outputLabel for="tpmaterial" value="Tipo material">
+					<p:inputText id="tpmaterial"
+						value="#{productosController.productos.tipoMaterial}" />
+				</p:outputLabel>
+				<br />
+				<p:outputLabel for="marca" value="Marca">
+					<p:inputText id="marca"
+						value="#{productosController.productos.marca}" />
+				</p:outputLabel>
+				<br />
+				<p:outputLabel for="tpl" value="Tipo de producto">
+					<p:selectOneMenu id="tpl" value="#{productosController.idtp}">
+						<f:selectItem itemLabel="seleccione.." itemValue="" />
+						<f:selectItems
+							value="#{productosController.obtenerTipoProductos()}" var="p"
+							itemValue="#{p.idTipoProductos}" itemLabel="#{p.nombre}" />
+					</p:selectOneMenu>
+				</p:outputLabel>
+				<br />
+				<p:commandButton
+					actionListener="#{productosController.agregaProductos()}"
+					value="Guardar" update="tblpro"></p:commandButton>
+			</p:fieldset>
+
+			<p:fieldset legend="Eliminar Producto">
+				<p:outputLabel for="epro">
+					<h:inputText id="epro"
+						value="#{productosController.productos.idProducto}" />
+				</p:outputLabel>
+				<p:commandButton
+					actionListener="#{productosController.deleteProductos()}"
+					value="Eliminar" update="tblpro">
+				</p:commandButton>
+			</p:fieldset>
+		</h:form>
+	</p:fieldset>
+</body>
+</html>

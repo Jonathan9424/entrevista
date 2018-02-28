@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+
+	<title>Vista para tipos de productos</title>
+</h:head>
+<body>
+	<p:fieldset legend="Acciones para Tipo Productos">
+		<h:form>
+			<p:fieldset legend="Tipos de productos">
+				<p:dataTable id="tbltp" var="tipos" paginator="true" rows="3"
+					value="#{tipoProductosController.tipoProductosList}"
+					paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+					rowsPerPageTemplate="5,10,15">
+					<p:column headerText="ID">
+						<h:outputText value="#{tipos.idTipoProductos}" />
+					</p:column>
+					<p:column headerText="tipo producto">
+						<h:outputLabel value="#{tipos.nombre}" />
+					</p:column>
+				</p:dataTable>
+			</p:fieldset>
+
+			<p:fieldset legend="ingresar Tipo producto">
+				<p:outputLabel for="nombreTipo" value="ingrese tipo producto">
+					<h:inputText id="nombreTipo"
+						value="#{tipoProductosController.tipoProductos.nombre}" />
+				</p:outputLabel>
+				<p:commandButton
+					actionListener="#{tipoProductosController.addTipoProductos()}"
+					value="Ingrear" update="tbltp"></p:commandButton>
+			</p:fieldset>
+
+			<p:fieldset legend="Eliminar Tipo de producto">
+				<p:outputLabel for="idTipo" value="Id producto">
+					<h:inputText id="idTipo"
+						value="#{tipoProductosController.tipoProductos.idTipoProductos}" />
+				</p:outputLabel>
+				<p:commandButton
+					actionListener="#{tipoProductosController.deleteTipoproductos()}"
+					value="Eliminar" update="tbltp"></p:commandButton>
+			</p:fieldset>
+
+		</h:form>
+	</p:fieldset>
+</body>
+</html>

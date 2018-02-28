@@ -10,6 +10,8 @@ import com.jonathan.entrevista.mappingtables.TipoProductos;
 @Local
 public interface ITipoProductos {
 
+	public TipoProductos searchProductos(EntityManager em, int id);
+
 	public void addTipoProductos(EntityManager em, TipoProductos tp);
 
 	public void deleteTipoProductos(EntityManager em, int idTp);

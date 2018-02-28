@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity(name = "TIPO_PRODUCTOS")
+@Entity(name = "tipo_productos")
 public class TipoProductos {
 
 	@Id
@@ -25,7 +25,7 @@ public class TipoProductos {
 		return this.idTipoProductos;
 	}
 
-	public void setIdtTipoProductos(int idTipoProductos) {
+	public void setIdTipoProductos(int idTipoProductos) {
 		this.idTipoProductos = idTipoProductos;
 	}
 

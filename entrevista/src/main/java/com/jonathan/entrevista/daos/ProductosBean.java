@@ -24,7 +24,7 @@ public class ProductosBean implements IProductos {
 
 	@Override
 	public List<Productos> listProductos(EntityManager em) {
-		String query = "SELEC P FROM com.jonathan.entrevista.Productos P";
+		String query = "SELECT P FROM com.jonathan.entrevista.mappingtables.Productos P";
 		return em.createQuery(query, Productos.class).getResultList();
 	}
 }
