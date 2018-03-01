@@ -2,8 +2,6 @@ package com.jonathan.entrevista.model;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.annotation.PostConstruct;
 import javax.ejb.EJB;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
@@ -33,13 +31,18 @@ public class StockController {
 	private List<Stock> listaStock;
 
 	public StockController() {
-
+		this.stock = new Stock();
 	}
 
-	@PostConstruct
-	public void buscaStock() {
+	public List<Stock> buscaStock() {
 		this.listaStock = new ArrayList<Stock>();
-		this.listaStock = is.listStock(em);
+		List<Stock> dec = is.listStock(em);
+		for (Stock stock : dec) {
+			if (stock.getCantidad() > 0) {
+				this.listaStock.add(stock);
+			}
+		}
+		return this.listaStock;
 	}
 
 	/*
@@ -47,29 +50,22 @@ public class StockController {
 	 * 
 	 */
 
-	public void agregarStock() {
-		if (!buscarProductoStock()) {
-			Productos producto = ip.searchProducto(em, getIdProducto());
+	public void agregarStock() throws Exception {
+		Stock produc = buscarProducto();
+		if (produc == null) {
+			Productos producto = ip.searchProducto(em, this.getIdProducto());
 			stock.setIdProducto(producto);
 			is.addStock(em, this.stock);
+			FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO,
+					"Transaccion Exitosa!", "!producto guardado exitosamente!"));
 		} else {
-			FacesContext.getCurrentInstance().addMessage(null,
-					new FacesMessage(FacesMessage.SEVERITY_ERROR, "Error!", "!Producto ya existente en stock!"));
+			is.updateStock(em, produc.getIdStock(), produc.getCantidad() + stock.getCantidad());
+			FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO,
+					"Transaccion Exitosa!", "!producto modificado exitosamente!"));
 		}
 	}
 
-	public boolean buscarProductoStock() {
-		Stock produc = buscarProducto();
-		for (int i = 0; i < this.listaStock.size(); i++) {
-			Stock ps = (Stock) this.listaStock.get(i);
-			if (ps.getIdProducto() == produc.getIdProducto()) {
-				return true;
-			}
-		}
-		return false;
-	}
-
-	public Stock buscarProducto() {
+	private Stock buscarProducto() {
 		return is.searchStock(em, this.getIdProducto());
 	}
 
@@ -93,8 +89,8 @@ public class StockController {
 		return this.idProducto;
 	}
 
-	public void setIdProducto(int idStock) {
-		this.idProducto = idStock;
+	public void setIdProducto(int idProducto) {
+		this.idProducto = idProducto;
 	}
 
 	public Stock getStock() {

@@ -13,20 +13,23 @@ public class StockBean implements IStock {
 
 	@Override
 	public Stock searchStock(EntityManager em, int idp) {
-		String query = "SELECT S.id_stock FROM com.jonathan.entrevista.mappigntables.Stock S WHERE S.id_producto="
-				+ idp;
-		return em.createQuery(query, Stock.class).getSingleResult();
+		try {
+			String query = "SELECT S FROM com.jonathan.entrevista.mappingtables.Stock S WHERE S.idProducto =" + idp;
+			return em.createQuery(query, Stock.class).getSingleResult();
+
+		} catch (Exception e) {
+			return null;
+		}
 	}
 
 	@Override
 	public void addStock(EntityManager em, Stock s) {
-		s.setCantidad(0);
 		em.merge(s);
 	}
 
 	@Override
-	public void updateStock(EntityManager em, int idS, int cantidad) {
-		Stock s = em.find(Stock.class, idS);
+	public void updateStock(EntityManager em, int idp, int cantidad) {
+		Stock s = em.find(Stock.class, idp);
 		s.setCantidad(cantidad);
 	}
 

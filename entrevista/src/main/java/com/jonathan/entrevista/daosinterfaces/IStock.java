@@ -10,7 +10,7 @@ import com.jonathan.entrevista.mappingtables.Stock;
 @Local
 public interface IStock {
 
-	public Stock searchStock(EntityManager em, int ids);
+	public Stock searchStock(EntityManager em, int idp);
 
 	public void addStock(EntityManager em, Stock s);
 

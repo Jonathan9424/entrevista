@@ -23,7 +23,7 @@ public class VentasBean implements IVentas {
 		vs.setCantidad(v.getCantidad());
 		vs.setValorUnitario(v.getValorUnitario());
 		vs.setIva(v.getIva());
-		vs.setVelorTotal(v.getValorTotal());
+		vs.setValorTotal(v.getValorTotal());
 
 	}
 

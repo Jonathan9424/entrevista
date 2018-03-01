@@ -2,6 +2,7 @@ package com.jonathan.entrevista.mappingtables;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -26,7 +27,7 @@ public class Ventas {
 	@Column(name = "valor_unitario")
 	private int valorUnitario;
 
-	@Column(name = "vale")
+	@Column(name = "iva")
 	private int iva;
 
 	@Column(name = "valor_total")
@@ -35,6 +36,10 @@ public class Ventas {
 	/*
 	 * start getters and setters to access ventas
 	 */
+
+	public int getIdVenta() {
+		return this.idVenta;
+	}
 
 	public void setIdVenta(int idVenta) {
 		this.idVenta = idVenta;
@@ -76,7 +81,7 @@ public class Ventas {
 		return this.valorTotal;
 	}
 
-	public void setVelorTotal(int valorTotal) {
+	public void setValorTotal(int valorTotal) {
 		this.valorTotal = valorTotal;
 	}
 

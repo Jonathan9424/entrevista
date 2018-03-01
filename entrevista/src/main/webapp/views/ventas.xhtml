@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Acciones para ventas</title>
+</h:head>
+<body>
+	<p:tooltip />
+	<p:fieldset legend="Acciones para ventas">
+		<h:form>
+			<p:fieldset legend="historial ventas">
+				<p:dataTable id="tblven" value="#{ventasController.obtenerVentas()}"
+					var="venta" rows="5" paginator="true"
+					paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+					rowsPerPageTemplate="5,10,15">
+					<p:column headerText="ID">
+						<h:outputText value="#{venta.idVenta}" />
+					</p:column>
+					<p:column headerText="Producto">
+						<h:outputText value="#{venta.idProducto.nombre}" />
+					</p:column>
+					<p:column headerText="Cantidad">
+						<h:outputText value="#{venta.cantidad}" />
+					</p:column>
+					<p:column headerText="valor unitario">
+						<h:outputText value="#{venta.valorUnitario}" />
+					</p:column>
+					<p:column headerText="iva/U">
+						<h:outputText value="#{venta.iva}" />
+					</p:column>
+					<p:column headerText="Valor Total">
+						<h:outputText value="#{venta.valorTotal}" />
+					</p:column>
+				</p:dataTable>
+			</p:fieldset>
+
+			<p:messages id="messages" showDetail="true" closable="true"
+				autoUpdate="true">
+			</p:messages>
+
+			<p:fieldset legend="venta de productos">
+				<p:outputLabel for="prod" value="productos">
+					<p:selectOneMenu id="prod" value="#{ventasController.idProducto}">
+						<f:selectItem itemLabel="seleccione..." itemValue="0" />
+						<f:selectItems value="#{ventasController.productoStock()}"
+							var="ps" itemValue="#{ps.idProducto.idProducto}"
+							itemLabel="#{ps.idProducto.idProducto} / #{ps.idProducto.nombre} / #{ps.idProducto.medidas} / #{ps.idProducto.marca} / Unds disp: #{ps.cantidad}" />
+					</p:selectOneMenu>
+				</p:outputLabel>
+				<p:outputLabel for="cant" value="Cantidad">
+					<h:inputText id="cant" value="#{ventasController.ventas.cantidad}" />
+				</p:outputLabel>
+				<p:commandButton
+					actionListener="#{ventasController.realizaCompra()}"
+					update="tblven" value="Comprar"></p:commandButton>
+			</p:fieldset>
+
+		</h:form>
+	</p:fieldset>
+</body>
+</html>

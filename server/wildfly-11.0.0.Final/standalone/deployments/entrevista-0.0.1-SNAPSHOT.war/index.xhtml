@@ -1,15 +1,42 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:ui="http://java.sun.com/jsf/facelets"
-	xmlns:f="http://java.sun.com/jsf/core"
-	xmlns:h="http://java.sun.com/jsf/html"
-	xmlns:p="http://primefaces.org/ui">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui">
 
 <h:head>
 	<title>Ingreso de Inventario</title>
+	<link rel="stylesheet" type="text/css" href="source/css/bootstrap.min.css"></link>
+	<link rel="stylesheet" type="text/css" href="source/css/custom.css"></link>
 </h:head>
+
 <body>
-	<h1>Gloria a Dios por siempre!!!</h1>
-	<p:spinner></p:spinner>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 offset-lg-3">
+				<h1>Bienvenido a Ferreteria S.A</h1>
+			</div>
+		</div>
+		<div class="row contenido">
+			<div class="col-lg-12 offset-lg-1 col-md-12">
+				<button class="btn btn-success btn-lg">
+					<a href="http://localhost:8080/entrevista-0.0.1-SNAPSHOT/views/TProducto.jsf">Agregar/eliminar tipo productos</a>
+				</button>
+				<button class="btn btn-success btn-lg">
+					<a href="http://localhost:8080/entrevista-0.0.1-SNAPSHOT/views/productos.jsf">Agregar Productos</a>
+				</button>
+				<button class="btn btn-success btn-lg">
+					<a href="http://localhost:8080/entrevista-0.0.1-SNAPSHOT/views/stock.jsf" title="cundo se compra, se agregan productos al stock de existencias">Compra productos</a>
+				</button>
+				<button class="btn btn-success btn-lg">
+					<a href="http://localhost:8080/entrevista-0.0.1-SNAPSHOT/views/ventas.jsf">Ventas</a>
+				</button>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	    crossorigin="anonymous"></script>
+	<script type="text/javascript" src="source/js/bootstrap.min.js"></script>
 </body>
+
 </html>

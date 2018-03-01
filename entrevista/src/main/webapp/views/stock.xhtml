@@ -5,12 +5,15 @@
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:p="http://primefaces.org/ui">
 
-<h:head></h:head>
+<h:head>
+	<title>Acciones para Stock</title>
+</h:head>
 <body>
+	<p:tooltip />
 	<p:fieldset legend="Acciones para Stock">
 		<h:form>
 			<p:fieldset legend="Productos en Stock">
-				<p:dataTable id="tblstock" value="#{stockController.listaStock}"
+				<p:dataTable id="tblstock" value="#{stockController.buscaStock()}"
 					var="stock" paginator="true" rows="5"
 					paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
 					rowsPerPageTemplate="5,10,15">
@@ -32,8 +35,12 @@
 				</p:dataTable>
 			</p:fieldset>
 
+			<p:messages id="messages" showDetail="true" closable="true"
+				autoUpdate="true">
+			</p:messages>
+
 			<p:fieldset legend="agregar producto a Stock">
-				<p:outputLabel for="lprod">
+				<p:outputLabel for="lprod" value="producto: ">
 					<p:selectOneMenu id="lprod" value="#{stockController.idProducto}">
 						<f:selectItem itemValue="0" itemLabel="seleccione.." />
 						<f:selectItems value="#{stockController.listaProductos()}" var="p"
@@ -41,16 +48,19 @@
 							itemLabel="#{p.nombre} - #{p.medidas} - #{p.marca}" />
 					</p:selectOneMenu>
 				</p:outputLabel>
-				<p:outputLabel for="cantidad" value="cantidad">
-					<h:inputText value="#{stockController.stock.cantidad}" />
+				<br />
+				<p:outputLabel for="cant" value="Cantidad (item modificable) ">
+					<h:inputText id="cant" value="#{stockController.stock.cantidad}" />
 				</p:outputLabel>
-				<p:outputLabel for="valor" value="valor">
-					<h:inputText value="#{stockController.stock.valor}" />
+				<br />
+				<p:outputLabel for="valor" value="valor: ">
+					<h:inputText id="valor" value="#{stockController.stock.valor}" />
 				</p:outputLabel>
-				<p:outputLabel for="iva" value="iva">
-					<h:inputText value="#{stockController.stock.iva}" />
+				<br />
+				<p:outputLabel for="iva" value="iva: ">
+					<h:inputText id="iva" value="#{stockController.stock.iva}" />
 				</p:outputLabel>
-
+				<br />
 				<p:commandButton actionListener="#{stockController.agregarStock()}"
 					value="guardar" update="tblstock"></p:commandButton>
 			</p:fieldset>
