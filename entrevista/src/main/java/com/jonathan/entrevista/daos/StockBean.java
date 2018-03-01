@@ -12,6 +12,13 @@ import com.jonathan.entrevista.mappingtables.Stock;
 public class StockBean implements IStock {
 
 	@Override
+	public Stock searchStock(EntityManager em, int idp) {
+		String query = "SELECT S.id_stock FROM com.jonathan.entrevista.mappigntables.Stock S WHERE S.id_producto="
+				+ idp;
+		return em.createQuery(query, Stock.class).getSingleResult();
+	}
+
+	@Override
 	public void addStock(EntityManager em, Stock s) {
 		s.setCantidad(0);
 		em.merge(s);
@@ -21,6 +28,13 @@ public class StockBean implements IStock {
 	public void updateStock(EntityManager em, int idS, int cantidad) {
 		Stock s = em.find(Stock.class, idS);
 		s.setCantidad(cantidad);
+	}
+
+	@Override
+	public void modifyAttributes(EntityManager em, int ids, int valor, int iva) {
+		Stock s = em.find(Stock.class, ids);
+		s.setValor(valor);
+		s.setIva(iva);
 	}
 
 	@Override

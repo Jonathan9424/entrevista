@@ -38,12 +38,16 @@ public class TipoProductosController {
 		itp.deleteTipoProductos(em, this.tipoProductos.getIdTipoProductos());
 	}
 
+	public List<TipoProductos> obtenerProductos() {
+		return this.tipoProductosList = itp.listTipoProductos(em);
+	}
+
 	/*
 	 * starts getters and setters to access since view point Tproductos
 	 */
 
 	public List<TipoProductos> getTipoProductosList() {
-		return this.tipoProductosList = itp.listTipoProductos(em);
+		return this.tipoProductosList;
 	}
 
 	public void setTipoProductosList(List<TipoProductos> tipoProductosList) {

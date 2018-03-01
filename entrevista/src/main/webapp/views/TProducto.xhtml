@@ -14,7 +14,7 @@
 		<h:form>
 			<p:fieldset legend="Tipos de productos">
 				<p:dataTable id="tbltp" var="tipos" paginator="true" rows="3"
-					value="#{tipoProductosController.tipoProductosList}"
+					value="#{tipoProductosController.obtenerProductos()}"
 					paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
 					rowsPerPageTemplate="5,10,15">
 					<p:column headerText="ID">

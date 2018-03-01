@@ -12,6 +12,11 @@ import com.jonathan.entrevista.mappingtables.Productos;
 public class ProductosBean implements IProductos {
 
 	@Override
+	public Productos searchProducto(EntityManager em, int idp) {
+		return em.find(Productos.class, idp);
+	}
+
+	@Override
 	public void addProducto(EntityManager em, Productos p) {
 		em.merge(p);
 	}
