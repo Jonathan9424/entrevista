@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 01-03-2018 a las 14:32:05
+-- Tiempo de generación: 01-03-2018 a las 19:30:56
 -- Versión del servidor: 10.2.13-MariaDB-10.2.13+maria~xenial-log
 -- Versión de PHP: 7.0.25-0ubuntu0.16.04.1
 
@@ -40,8 +40,13 @@ CREATE TABLE `productos` (
 --
 
 INSERT INTO `productos` (`id_producto`, `nombre`, `medidas`, `tipo_material`, `marca`, `id_tipo_productos`) VALUES
-(1, 'llave allen', '0.7mm', 'Acero', 'stanley steel', 2),
-(3, 'Martillo', '20 onzas', 'mango grafito', 'Uberman', 2);
+(1, 'llave allen', '0.7mm', 'Acero', 'stanley steel', 1),
+(2, 'Alicates', '9 pulgadas', 'Hierro - goma', 'stanley', 1),
+(3, 'Hombre Solo', '7 pulgadas', 'Acero', 'stanley', 1),
+(4, 'destornillador estrella', '250 milimetros', 'Acero', 'Redline', 1),
+(5, 'chazo puntilla', '1/4', 'Acero', 'bauker', 2),
+(6, 'PL-285', '4.5 galones', 'pegante', 'pegadit', 3),
+(7, 'PL-285', '2.0 galones', 'pegante', 'pegadit', 3);
 
 -- --------------------------------------------------------
 
@@ -62,8 +67,10 @@ CREATE TABLE `stock` (
 --
 
 INSERT INTO `stock` (`id_stock`, `id_producto`, `cantidad`, `valor`, `iva`) VALUES
-(1, 1, 35, 3000, 19),
-(2, 3, 25, 3000, 19);
+(1, 1, 30, 5000, 19),
+(2, 5, 200, 1500, 19),
+(3, 6, 40, 17000, 19),
+(4, 3, 50, 11000, 19);
 
 -- --------------------------------------------------------
 
@@ -81,7 +88,9 @@ CREATE TABLE `tipo_productos` (
 --
 
 INSERT INTO `tipo_productos` (`id_tipo_productos`, `nombre`) VALUES
-(2, 'herramientas');
+(1, 'Herramientas'),
+(2, 'Tornilleria'),
+(3, 'Pegamentos');
 
 -- --------------------------------------------------------
 
@@ -103,10 +112,10 @@ CREATE TABLE `ventas` (
 --
 
 INSERT INTO `ventas` (`id_venta`, `id_producto`, `cantidad`, `valor_unitario`, `iva`, `valor_total`) VALUES
-(1, 1, 10, 3000, 570, 35700),
-(2, 3, 10, 3000, 570, 35700),
-(3, 1, 10, 3000, 570, 35700),
-(4, 1, 25, 3000, 570, 89250);
+(1, 1, 3, 5000, 950, 17850),
+(2, 1, 2, 5000, 950, 11900),
+(3, 1, 3, 5000, 950, 17850),
+(4, 1, 2, 5000, 950, 11900);
 
 --
 -- Índices para tablas volcadas
@@ -147,17 +156,17 @@ ALTER TABLE `ventas`
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT de la tabla `stock`
 --
 ALTER TABLE `stock`
-  MODIFY `id_stock` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_stock` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT de la tabla `tipo_productos`
 --
 ALTER TABLE `tipo_productos`
-  MODIFY `id_tipo_productos` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_tipo_productos` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT de la tabla `ventas`
 --

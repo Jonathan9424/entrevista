@@ -1,0 +1,44 @@
+   INSTRUCCIONES DE DESPLIEGUE Y EJECUCION DEL PRODUCTO-EJERCICIO 
+
+- el proyeco en general esta identificado con la siguiente estructura:
+
+- carpeta BASE de repositorio : entrevista.
+- carpeta del codigo del proyecto : entrevista (que esta alojada dentro del repositorio).
+- carpeta server : en la cual esta alojado el servidor de ejecucion (wildfly).
+- archivo bakup de la DB : ferreteria.sql.
+- archivo en formato pdf, que contiene informacion elemental del modelo de dominio : ferreteria.pdf
+- archivo con formato txt, que contiene las instrucciones presentes : instrucciones.txt
+- archivo de descripcion del repositorio : readme.md  
+
+- en la carpeta BASE que contiene el proyecto existe un archivo con extension sql para importar la base de datos en este caso de hizo uso del motor MYSQL; se procede a crear la base de datos (CREATE DATABASE ferreteria) luego se accede a ella (USE ferreteria), acontinuacion de importa el archivo mediante el comando (SOURCE "link de acceso") ---- el archivo se llama ferreteria.sql.
+
+- para acceder a la base de datos se ha desplegado un datasource en el server, y este es implementado con JPA, tecnologia ORM que permite la conexion con la base de datos, la base de datos (MYSQL) tiene los siguientes datos de acceso, el cual deben ser establecidos en el lugar donde se pretende ejecutar el aplicativo para su correcto funcionamiento:
+
+usuario : root
+password : 12qwaszx
+
+- para iniciar el servidor y por consiguiente "levantar" el aplicativo, hay que dirigirse por medio del cmd(en windows) o en la terminal(linux) y ejecutar el archivo standalone con extesion .bat(en window) o sh (en linux)
+"lugarDeDescarga".../entrevista/server/wildfly-11.0.0.Final/bin/standalone.bat
+
+
+- Una ves realizado lo anterior, la ruta o url en la cual el aplicativo se ejecuta, siendo esta en modo local es la siguiente: 
+
+http://localhost:8080/entrevista-0.0.1-SNAPSHOT/index.jsf
+
+
+- el proyecto se llama entrevista, esta desarrollado y compilado en eclipse; en cuanto a la arquitectura fisica, esta desplegado en un servidor wildfly/jboss, se implemento inyeccion de dependencias mediante EJB, se realizo MVC mediante el framework de JSF.
+
+El aplicativo ha sido desarrollado en tres capas, organizadas a treves de paquetes en el siguiente orden:
+
+
+*) com.jonathan.entrevista.mappingtables --> en esta carpeta se plasma las clases que representan y permiten la manipulacion de los datos que se encuentran alojados en la base de datos.
+
+1),com.jonathan.entrevista.daos --> capa de persistencia de datos, se establecen los metodos que permite la interaccion y comunicacion la capa de almacenamiento de datos.
+
+2). com.jonathan.entrevista.model ---> capa en la cual se encapsula la implementacion del modelo de dominio, obedeciendo sus funciones segun los criterios establecidos mediante los requerimientos solicitados por la guia.
+
+3). src/main/webapp/views ---> capa de las Vistas, aquellos documentos en formato XHTML, con el cual permite la interaccion del sistema con el usuario o cliente final.
+
+
+De antemano agradesco profundamente su oportunidad de haber realizado la letura e implementacion de la descripcion establecida en este documento.
+

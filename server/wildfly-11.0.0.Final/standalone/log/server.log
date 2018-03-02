@@ -25338,3 +25338,1308 @@ Caused by: java.io.EOFException: Can not read response from server. Expected to 
 2018-03-01 14:40:52,344 INFO  [stdout] (default task-46) Errorcom.jonathan.entrevista.mappingtables.Productos@1c87338e
 2018-03-01 14:40:52,345 INFO  [stdout] (default task-46) Errorcom.jonathan.entrevista.mappingtables.Productos@1c87338e
 2018-03-01 14:40:52,345 INFO  [stdout] (default task-46) Error22
+2018-03-01 14:46:49,186 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2018-03-01 14:46:49,222 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = entrevista-0.0.1-SNAPSHOT.war_com.mysql.jdbc.Driver_5_1
+2018-03-01 14:46:49,229 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/vehicDS]
+2018-03-01 14:46:49,256 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.45-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-03-01 14:46:49,261 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = entrevista-0.0.1-SNAPSHOT.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-03-01 14:46:49,272 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:/pruebaDS]
+2018-03-01 14:46:49,278 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 6) WFLYUT0022: Unregistered web context: '/entrevista-0.0.1-SNAPSHOT' from server 'default-server'
+2018-03-01 14:46:49,316 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = postgresql-42.1.4.jar
+2018-03-01 14:46:49,318 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+2018-03-01 14:46:49,363 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2018-03-01 14:46:49,378 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment postgresql-42.1.4.jar (runtime-name: postgresql-42.1.4.jar) in 176ms
+2018-03-01 14:46:49,380 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment postgresql (runtime-name: postgresql) in 186ms
+2018-03-01 14:46:49,382 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-03-01 14:46:49,406 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-03-01 14:46:49,408 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-03-01 14:46:49,411 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'entrevista-0.0.1-SNAPSHOT.war#entrevista'
+2018-03-01 14:46:49,425 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'entrevista-0.0.1-SNAPSHOT.war#entrevista'
+2018-03-01 14:46:49,425 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:/FerreteriaDS]
+2018-03-01 14:46:49,433 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.45-bin.jar_com.mysql.jdbc.Driver_5_1
+2018-03-01 14:46:49,440 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2018-03-01 14:46:49,440 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-03-01 14:46:49,441 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment mysql (runtime-name: mysql-connector-java-5.1.45-bin.jar) in 240ms
+2018-03-01 14:46:49,442 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-03-01 14:46:49,442 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-03-01 14:46:49,447 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 1.4.18.Final stopping
+2018-03-01 14:46:49,453 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment entrevista-0.0.1-SNAPSHOT.war (runtime-name: entrevista-0.0.1-SNAPSHOT.war) in 258ms
+2018-03-01 14:46:49,458 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) stopped in 251ms
+2018-03-01 18:26:17,602 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2018-03-01 18:26:18,172 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2018-03-01 18:26:18,484 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2018-03-01 18:26:18,486 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/jboss-modules.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_161-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_161
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.161-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final
+	jboss.host.name = jonathan-x450ln
+	jboss.modules.dir = /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = jonathan-x450ln
+	jboss.qualified.host.name = jonathan-x450ln
+	jboss.server.base.dir = /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/standalone
+	jboss.server.config.dir = /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/standalone/log
+	jboss.server.name = jonathan-x450ln
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/standalone/configuration/logging.properties
+	module.path = /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/modules
+	org.jboss.boot.log.file = /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-116-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 11 prueba
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = CO
+	user.dir = /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/bin
+	user.home = /home/jonathan
+	user.language = es
+	user.name = jonathan
+	user.timezone = America/Bogota
+2018-03-01 18:26:18,486 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 prueba -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-03-01 18:26:20,227 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-01 18:26:20,249 INFO  [org.wildfly.security] (ServerService Thread Pool -- 20) ELY00001: WildFly Elytron version 1.1.6.Final
+2018-03-01 18:26:20,270 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 29) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-01 18:26:20,287 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found entrevista-0.0.1-SNAPSHOT.war in deployment directory. To trigger deployment create a file called entrevista-0.0.1-SNAPSHOT.war.dodeploy
+2018-03-01 18:26:20,374 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-03-01 18:26:20,395 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.5.4.Final
+2018-03-01 18:26:20,405 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.5.4.Final
+2018-03-01 18:26:20,438 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-03-01 18:26:20,464 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-03-01 18:26:20,476 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2018-03-01 18:26:20,477 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-03-01 18:26:20,484 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-03-01 18:26:20,502 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-03-01 18:26:20,502 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.5.Final
+2018-03-01 18:26:20,513 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-03-01 18:26:20,517 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-03-01 18:26:20,519 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-03-01 18:26:20,526 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-03-01 18:26:20,536 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.4.18.Final starting
+2018-03-01 18:26:20,623 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2018-03-01 18:26:20,666 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-03-01 18:26:20,674 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2018-03-01 18:26:20,676 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-03-01 18:26:20,950 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-03-01 18:26:20,961 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-03-01 18:26:20,984 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2018-03-01 18:26:20,987 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path '/home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-01 18:26:20,992 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2018-03-01 18:26:21,165 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-03-01 18:26:21,217 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: EJB subsystem suspension complete
+2018-03-01 18:26:21,505 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-03-01 18:26:21,598 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-03-01 18:26:21,669 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-03-01 18:26:21,937 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory /home/jonathan/eclipse-workspace/entrevista/server/wildfly-11.0.0.Final/standalone/deployments
+2018-03-01 18:26:21,949 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "entrevista-0.0.1-SNAPSHOT.war" (runtime-name: "entrevista-0.0.1-SNAPSHOT.war")
+2018-03-01 18:26:21,950 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "postgresql" (runtime-name: "postgresql")
+2018-03-01 18:26:21,954 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "mysql" (runtime-name: "mysql-connector-java-5.1.45-bin.jar")
+2018-03-01 18:26:21,955 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "postgresql-42.1.4.jar" (runtime-name: "postgresql-42.1.4.jar")
+2018-03-01 18:26:22,493 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-03-01 18:26:22,721 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2018-03-01 18:26:23,196 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.1)
+2018-03-01 18:26:23,200 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.1)
+2018-03-01 18:26:23,214 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-03-01 18:26:23,215 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2018-03-01 18:26:23,217 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.45-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-03-01 18:26:23,217 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.45-bin.jar_com.mysql.jdbc.Driver_5_1
+2018-03-01 18:26:23,219 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2018-03-01 18:26:23,221 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/FerreteriaDS]
+2018-03-01 18:26:23,221 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:/vehicDS]
+2018-03-01 18:26:23,222 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = postgresql-42.1.4.jar
+2018-03-01 18:26:23,224 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:/pruebaDS]
+2018-03-01 18:26:23,494 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final
+2018-03-01 18:26:24,011 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-03-01 18:26:25,132 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for entrevista
+2018-03-01 18:26:25,460 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'entrevista-0.0.1-SNAPSHOT.war#entrevista'
+2018-03-01 18:26:25,504 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 62) HHH000204: Processing PersistenceUnitInfo [
+	name: entrevista
+	...]
+2018-03-01 18:26:25,581 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment entrevista-0.0.1-SNAPSHOT.war
+2018-03-01 18:26:25,652 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.3.5.Final
+2018-03-01 18:26:25,702 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 62) HHH000412: Hibernate Core {5.1.10.Final}
+2018-03-01 18:26:25,704 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000206: hibernate.properties not found
+2018-03-01 18:26:25,706 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000021: Bytecode provider name : javassist
+2018-03-01 18:26:25,751 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 62) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-01 18:26:25,806 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'TipoProductosBean' in deployment unit 'deployment "entrevista-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/entrevista-0.0.1-SNAPSHOT/TipoProductosBean!com.jonathan.entrevista.daosinterfaces.ITipoProductos
+	java:app/entrevista-0.0.1-SNAPSHOT/TipoProductosBean!com.jonathan.entrevista.daosinterfaces.ITipoProductos
+	java:module/TipoProductosBean!com.jonathan.entrevista.daosinterfaces.ITipoProductos
+	java:global/entrevista-0.0.1-SNAPSHOT/TipoProductosBean
+	java:app/entrevista-0.0.1-SNAPSHOT/TipoProductosBean
+	java:module/TipoProductosBean
+
+2018-03-01 18:26:25,807 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'VentasBean' in deployment unit 'deployment "entrevista-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/entrevista-0.0.1-SNAPSHOT/VentasBean!com.jonathan.entrevista.daosinterfaces.IVentas
+	java:app/entrevista-0.0.1-SNAPSHOT/VentasBean!com.jonathan.entrevista.daosinterfaces.IVentas
+	java:module/VentasBean!com.jonathan.entrevista.daosinterfaces.IVentas
+	java:global/entrevista-0.0.1-SNAPSHOT/VentasBean
+	java:app/entrevista-0.0.1-SNAPSHOT/VentasBean
+	java:module/VentasBean
+
+2018-03-01 18:26:25,807 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ProductosBean' in deployment unit 'deployment "entrevista-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/entrevista-0.0.1-SNAPSHOT/ProductosBean!com.jonathan.entrevista.daosinterfaces.IProductos
+	java:app/entrevista-0.0.1-SNAPSHOT/ProductosBean!com.jonathan.entrevista.daosinterfaces.IProductos
+	java:module/ProductosBean!com.jonathan.entrevista.daosinterfaces.IProductos
+	java:global/entrevista-0.0.1-SNAPSHOT/ProductosBean
+	java:app/entrevista-0.0.1-SNAPSHOT/ProductosBean
+	java:module/ProductosBean
+
+2018-03-01 18:26:25,808 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'StockBean' in deployment unit 'deployment "entrevista-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/entrevista-0.0.1-SNAPSHOT/StockBean!com.jonathan.entrevista.daosinterfaces.IStock
+	java:app/entrevista-0.0.1-SNAPSHOT/StockBean!com.jonathan.entrevista.daosinterfaces.IStock
+	java:module/StockBean!com.jonathan.entrevista.daosinterfaces.IStock
+	java:global/entrevista-0.0.1-SNAPSHOT/StockBean
+	java:app/entrevista-0.0.1-SNAPSHOT/StockBean
+	java:module/StockBean
+
+2018-03-01 18:26:26,184 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-03-01 18:26:26,185 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2018-03-01 18:26:26,217 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 2.4.3 (Final)
+2018-03-01 18:26:26,278 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = entrevista-0.0.1-SNAPSHOT.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-03-01 18:26:26,282 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = entrevista-0.0.1-SNAPSHOT.war_com.mysql.jdbc.Driver_5_1
+2018-03-01 18:26:26,439 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'entrevista-0.0.1-SNAPSHOT.war#entrevista'
+2018-03-01 18:26:26,764 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 62) IJ000407: No lazy enlistment available for FerreteriaDS
+2018-03-01 18:26:26,781 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 62) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-01 18:26:26,826 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 62) Envers integration enabled? : true
+2018-03-01 18:26:28,101 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 66) Inicializando Mojarra 2.2.13.SP4  para el contexto '/entrevista-0.0.1-SNAPSHOT'
+2018-03-01 18:26:29,860 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 66) Running on PrimeFaces 6.1
+2018-03-01 18:26:29,886 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: '/entrevista-0.0.1-SNAPSHOT' for server 'default-server'
+2018-03-01 18:26:29,903 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "mysql" (runtime-name : "mysql-connector-java-5.1.45-bin.jar")
+2018-03-01 18:26:29,903 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "postgresql" (runtime-name : "postgresql")
+2018-03-01 18:26:29,903 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "postgresql-42.1.4.jar" (runtime-name : "postgresql-42.1.4.jar")
+2018-03-01 18:26:29,904 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "entrevista-0.0.1-SNAPSHOT.war" (runtime-name : "entrevista-0.0.1-SNAPSHOT.war")
+2018-03-01 18:26:30,027 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-03-01 18:26:30,030 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-03-01 18:26:30,030 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-03-01 18:26:30,030 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started in 12907ms - Started 674 of 903 services (370 services are lazy, passive or on-demand)
+2018-03-01 18:27:54,064 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-11) HHH000397: Using ASTQueryTranslatorFactory
+2018-03-01 18:58:21,080 WARN  [org.jboss.jca.core.connectionmanager.listener.TxConnectionListener] (default task-22) IJ000305: Connection error occured: org.jboss.jca.core.connectionmanager.listener.TxConnectionListener@6a3176fe[state=NORMAL managed connection=org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@66864d91 connection handles=1 lastReturned=1519946891569 lastValidated=1519946786764 lastCheckedOut=1519948701060 trackByTx=true pool=org.jboss.jca.core.connectionmanager.pool.strategy.OnePool@23209e29 mcp=SemaphoreConcurrentLinkedQueueManagedConnectionPool@359eaeed[pool=FerreteriaDS] xaResource=LocalXAResourceImpl@2e5e9d7b[connectionListener=6a3176fe connectionManager=63934c4 warned=false currentXid=< formatId=131077, gtrid_length=29, bqual_length=36, tx_uid=0:ffff7f000101:-25102cef:5a988c1d:a0, node_name=1, branch_uid=0:ffff7f000101:-25102cef:5a988c1d:a4, subordinatenodename=null, eis_name=java:/FerreteriaDS > productName=MySQL productVersion=5.5.5-10.2.13-MariaDB-10.2.13+maria~xenial-log jndiName=java:/FerreteriaDS] txSync=TransactionSynchronization@1186449663{tx=Local transaction (delegate=TransactionImple < ac, BasicAction: 0:ffff7f000101:-25102cef:5a988c1d:a0 status: ActionStatus.RUNNING >, owner=Local transaction context for provider JBoss JTA transaction provider) wasTrackByTx=true enlisted=true cancel=false}]: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1.809.507 milliseconds ago.  The last packet sent successfully to the server was 15 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3559)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3459)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3900)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2484)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1966)
+	at org.jboss.jca.adapters.jdbc.WrappedPreparedStatement.executeQuery(WrappedPreparedStatement.java:504)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:70)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2122)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1905)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1881)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:925)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:342)
+	at org.hibernate.loader.Loader.doList(Loader.java:2622)
+	at org.hibernate.loader.Loader.doList(Loader.java:2605)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2434)
+	at org.hibernate.loader.Loader.list(Loader.java:2429)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:501)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:371)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:216)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1339)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:87)
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:606)
+	at org.hibernate.jpa.internal.QueryImpl.getResultList(QueryImpl.java:483)
+	at com.jonathan.entrevista.daos.ProductosBean.listProductos(ProductosBean.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:90)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:101)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:332)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:240)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:609)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at com.jonathan.entrevista.daosinterfaces.IProductos$$$view3.listProductos(Unknown Source)
+	at com.jonathan.entrevista.model.ProductosController.productosLista(ProductosController.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.el.ELUtil.invokeMethod(ELUtil.java:311)
+	at javax.el.BeanELResolver.invoke(BeanELResolver.java:415)
+	at javax.el.CompositeELResolver.invoke(CompositeELResolver.java:256)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:135)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:203)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at org.jboss.weld.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at org.jboss.weld.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:764)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:215)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:186)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:90)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:89)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:72)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeContent(FieldsetRenderer.java:94)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeMarkup(FieldsetRenderer.java:76)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeEnd(FieldsetRenderer.java:47)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:890)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:85)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:72)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeContent(FieldsetRenderer.java:94)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeMarkup(FieldsetRenderer.java:76)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeEnd(FieldsetRenderer.java:47)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:458)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:326)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3011)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3469)
+	... 172 more
+
+2018-03-01 18:58:21,090 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-22) SQL Error: 0, SQLState: 08S01
+2018-03-01 18:58:21,091 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-22) Communications link failure
+
+The last packet successfully received from the server was 1.809.507 milliseconds ago.  The last packet sent successfully to the server was 15 milliseconds ago.
+2018-03-01 18:58:21,098 WARN  [com.arjuna.ats.jta] (default task-22) ARJUNA016031: XAOnePhaseResource.rollback for < formatId=131077, gtrid_length=29, bqual_length=36, tx_uid=0:ffff7f000101:-25102cef:5a988c1d:a0, node_name=1, branch_uid=0:ffff7f000101:-25102cef:5a988c1d:a4, subordinatenodename=null, eis_name=java:/FerreteriaDS > failed with exception: org.jboss.jca.core.spi.transaction.local.LocalXAException: IJ001160: Could not rollback local transaction
+	at org.jboss.jca.core.tx.jbossts.LocalXAResourceImpl.rollback(LocalXAResourceImpl.java:249)
+	at com.arjuna.ats.internal.jta.resources.arjunacore.XAOnePhaseResource.rollback(XAOnePhaseResource.java:205)
+	at com.arjuna.ats.internal.arjuna.abstractrecords.LastResourceRecord.topLevelAbort(LastResourceRecord.java:126)
+	at com.arjuna.ats.arjuna.coordinator.BasicAction.doAbort(BasicAction.java:3023)
+	at com.arjuna.ats.arjuna.coordinator.BasicAction.doAbort(BasicAction.java:3002)
+	at com.arjuna.ats.arjuna.coordinator.BasicAction.Abort(BasicAction.java:1674)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.cancel(TwoPhaseCoordinator.java:124)
+	at com.arjuna.ats.arjuna.AtomicAction.abort(AtomicAction.java:186)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.rollbackAndDisassociate(TransactionImple.java:1371)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.rollback(BaseTransaction.java:143)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.rollback(BaseTransactionManagerDelegate.java:134)
+	at org.wildfly.transaction.client.LocalTransaction.rollbackAndDissociate(LocalTransaction.java:104)
+	at org.wildfly.transaction.client.ContextTransactionManager.rollback(ContextTransactionManager.java:83)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.endTransaction(CMTTxInterceptor.java:94)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:279)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:332)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:240)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:609)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at com.jonathan.entrevista.daosinterfaces.IProductos$$$view3.listProductos(Unknown Source)
+	at com.jonathan.entrevista.model.ProductosController.productosLista(ProductosController.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.el.ELUtil.invokeMethod(ELUtil.java:311)
+	at javax.el.BeanELResolver.invoke(BeanELResolver.java:415)
+	at javax.el.CompositeELResolver.invoke(CompositeELResolver.java:256)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:135)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:203)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at org.jboss.weld.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at org.jboss.weld.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:764)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:215)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:186)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:90)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:89)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:72)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeContent(FieldsetRenderer.java:94)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeMarkup(FieldsetRenderer.java:76)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeEnd(FieldsetRenderer.java:47)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:890)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:85)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:72)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeContent(FieldsetRenderer.java:94)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeMarkup(FieldsetRenderer.java:76)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeEnd(FieldsetRenderer.java:47)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:458)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:326)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.jboss.jca.core.spi.transaction.local.LocalResourceException: No operations allowed after connection closed.
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnection.rollback(LocalManagedConnection.java:139)
+	at org.jboss.jca.core.tx.jbossts.LocalXAResourceImpl.rollback(LocalXAResourceImpl.java:244)
+	... 135 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1184)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1179)
+	at com.mysql.jdbc.ConnectionImpl.rollback(ConnectionImpl.java:4538)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnection.rollback(LocalManagedConnection.java:132)
+	... 136 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1.809.507 milliseconds ago.  The last packet sent successfully to the server was 15 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3559)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3459)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3900)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2484)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1966)
+	at org.jboss.jca.adapters.jdbc.WrappedPreparedStatement.executeQuery(WrappedPreparedStatement.java:504)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:70)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2122)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1905)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1881)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:925)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:342)
+	at org.hibernate.loader.Loader.doList(Loader.java:2622)
+	at org.hibernate.loader.Loader.doList(Loader.java:2605)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2434)
+	at org.hibernate.loader.Loader.list(Loader.java:2429)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:501)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:371)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:216)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1339)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:87)
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:606)
+	at org.hibernate.jpa.internal.QueryImpl.getResultList(QueryImpl.java:483)
+	at com.jonathan.entrevista.daos.ProductosBean.listProductos(ProductosBean.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:90)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:101)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+	... 121 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3011)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3469)
+	... 172 more
+
+2018-03-01 18:58:21,103 WARN  [com.arjuna.ats.arjuna] (default task-22) ARJUNA012091: Top-level abort of action 0:ffff7f000101:-25102cef:5a988c1d:a0 received TwoPhaseOutcome.FINISH_ERROR from com.arjuna.ats.internal.arjuna.abstractrecords.LastResourceRecord
+2018-03-01 18:58:21,104 ERROR [org.jboss.as.ejb3.invocation] (default task-22) WFLYEJB0034: EJB Invocation failed on component ProductosBean for method public abstract java.util.List com.jonathan.entrevista.daosinterfaces.IProductos.listProductos(javax.persistence.EntityManager): javax.ejb.EJBException: javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:188)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:277)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:332)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:240)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:609)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at com.jonathan.entrevista.daosinterfaces.IProductos$$$view3.listProductos(Unknown Source)
+	at com.jonathan.entrevista.model.ProductosController.productosLista(ProductosController.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.el.ELUtil.invokeMethod(ELUtil.java:311)
+	at javax.el.BeanELResolver.invoke(BeanELResolver.java:415)
+	at javax.el.CompositeELResolver.invoke(CompositeELResolver.java:256)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:135)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:203)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at org.jboss.weld.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at org.jboss.weld.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:764)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:215)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:186)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:90)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:89)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:72)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeContent(FieldsetRenderer.java:94)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeMarkup(FieldsetRenderer.java:76)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeEnd(FieldsetRenderer.java:47)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:890)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:85)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:72)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeContent(FieldsetRenderer.java:94)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeMarkup(FieldsetRenderer.java:76)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeEnd(FieldsetRenderer.java:47)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:458)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:326)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1692)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1602)
+	at org.hibernate.jpa.internal.QueryImpl.getResultList(QueryImpl.java:492)
+	at com.jonathan.entrevista.daos.ProductosBean.listProductos(ProductosBean.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:90)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:101)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+	... 121 more
+Caused by: org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:115)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:111)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:97)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:79)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2122)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1905)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1881)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:925)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:342)
+	at org.hibernate.loader.Loader.doList(Loader.java:2622)
+	at org.hibernate.loader.Loader.doList(Loader.java:2605)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2434)
+	at org.hibernate.loader.Loader.list(Loader.java:2429)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:501)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:371)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:216)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1339)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:87)
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:606)
+	at org.hibernate.jpa.internal.QueryImpl.getResultList(QueryImpl.java:483)
+	... 147 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1.809.507 milliseconds ago.  The last packet sent successfully to the server was 15 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3559)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3459)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3900)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2484)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1966)
+	at org.jboss.jca.adapters.jdbc.WrappedPreparedStatement.executeQuery(WrappedPreparedStatement.java:504)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:70)
+	... 163 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3011)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3469)
+	... 172 more
+
+2018-03-01 18:58:21,107 SEVERE [javax.enterprise.resource.webcontainer.jsf.application] (default task-22) Error Rendering View[/views/productos.xhtml]: javax.el.ELException: /views/productos.xhtml @19,36 value="#{productosController.productosLista()}": javax.ejb.EJBException: javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:764)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:215)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:186)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:90)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:89)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:72)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeContent(FieldsetRenderer.java:94)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeMarkup(FieldsetRenderer.java:76)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeEnd(FieldsetRenderer.java:47)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:890)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:85)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:72)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeContent(FieldsetRenderer.java:94)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeMarkup(FieldsetRenderer.java:76)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeEnd(FieldsetRenderer.java:47)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:458)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:326)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.el.ELException: javax.ejb.EJBException: javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at javax.el.ELUtil.invokeMethod(ELUtil.java:315)
+	at javax.el.BeanELResolver.invoke(BeanELResolver.java:415)
+	at javax.el.CompositeELResolver.invoke(CompositeELResolver.java:256)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:135)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:203)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at org.jboss.weld.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at org.jboss.weld.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 73 more
+Caused by: javax.ejb.EJBException: javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:188)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:277)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:332)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:240)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:609)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at com.jonathan.entrevista.daosinterfaces.IProductos$$$view3.listProductos(Unknown Source)
+	at com.jonathan.entrevista.model.ProductosController.productosLista(ProductosController.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.el.ELUtil.invokeMethod(ELUtil.java:311)
+	... 81 more
+Caused by: javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1692)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1602)
+	at org.hibernate.jpa.internal.QueryImpl.getResultList(QueryImpl.java:492)
+	at com.jonathan.entrevista.daos.ProductosBean.listProductos(ProductosBean.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:90)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:101)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+	... 121 more
+Caused by: org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:115)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:111)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:97)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:79)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2122)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1905)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1881)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:925)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:342)
+	at org.hibernate.loader.Loader.doList(Loader.java:2622)
+	at org.hibernate.loader.Loader.doList(Loader.java:2605)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2434)
+	at org.hibernate.loader.Loader.list(Loader.java:2429)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:501)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:371)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:216)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1339)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:87)
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:606)
+	at org.hibernate.jpa.internal.QueryImpl.getResultList(QueryImpl.java:483)
+	... 147 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1.809.507 milliseconds ago.  The last packet sent successfully to the server was 15 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3559)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3459)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3900)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2484)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1966)
+	at org.jboss.jca.adapters.jdbc.WrappedPreparedStatement.executeQuery(WrappedPreparedStatement.java:504)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:70)
+	... 163 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3011)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3469)
+	... 172 more
+
+2018-03-01 18:58:21,123 ERROR [io.undertow.request] (default task-22) UT005023: Exception handling request to /entrevista-0.0.1-SNAPSHOT/views/productos.jsf: javax.servlet.ServletException: javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1508)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:326)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.ejb.EJBException: javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:188)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:277)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:332)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:240)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:609)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at com.jonathan.entrevista.daosinterfaces.IProductos$$$view3.listProductos(Unknown Source)
+	at com.jonathan.entrevista.model.ProductosController.productosLista(ProductosController.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.el.ELUtil.invokeMethod(ELUtil.java:311)
+	at javax.el.BeanELResolver.invoke(BeanELResolver.java:415)
+	at javax.el.CompositeELResolver.invoke(CompositeELResolver.java:256)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:135)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:203)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at org.jboss.weld.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at org.jboss.weld.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIData.getValue(UIData.java:732)
+	at org.primefaces.component.api.UIData.getDataModel(UIData.java:764)
+	at javax.faces.component.UIData.getRowCount(UIData.java:356)
+	at org.primefaces.component.api.UIData.calculateFirst(UIData.java:215)
+	at org.primefaces.component.datatable.DataTableRenderer.preRender(DataTableRenderer.java:186)
+	at org.primefaces.component.datatable.DataTableRenderer.encodeEnd(DataTableRenderer.java:90)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:89)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:72)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeContent(FieldsetRenderer.java:94)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeMarkup(FieldsetRenderer.java:76)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeEnd(FieldsetRenderer.java:47)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:890)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:85)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:72)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeContent(FieldsetRenderer.java:94)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeMarkup(FieldsetRenderer.java:76)
+	at org.primefaces.component.fieldset.FieldsetRenderer.encodeEnd(FieldsetRenderer.java:47)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:458)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 39 more
+Caused by: javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1692)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1602)
+	at org.hibernate.jpa.internal.QueryImpl.getResultList(QueryImpl.java:492)
+	at com.jonathan.entrevista.daos.ProductosBean.listProductos(ProductosBean.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:90)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:101)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+	... 121 more
+Caused by: org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:115)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:111)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:97)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:79)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2122)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1905)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1881)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:925)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:342)
+	at org.hibernate.loader.Loader.doList(Loader.java:2622)
+	at org.hibernate.loader.Loader.doList(Loader.java:2605)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2434)
+	at org.hibernate.loader.Loader.list(Loader.java:2429)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:501)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:371)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:216)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1339)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:87)
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:606)
+	at org.hibernate.jpa.internal.QueryImpl.getResultList(QueryImpl.java:483)
+	... 147 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1.809.507 milliseconds ago.  The last packet sent successfully to the server was 15 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3559)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3459)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3900)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2484)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1966)
+	at org.jboss.jca.adapters.jdbc.WrappedPreparedStatement.executeQuery(WrappedPreparedStatement.java:504)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:70)
+	... 163 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3011)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3469)
+	... 172 more
+
+2018-03-01 19:47:49,146 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2018-03-01 19:47:49,173 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = entrevista-0.0.1-SNAPSHOT.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-03-01 19:47:49,175 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:/vehicDS]
+2018-03-01 19:47:49,175 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = entrevista-0.0.1-SNAPSHOT.war_com.mysql.jdbc.Driver_5_1
+2018-03-01 19:47:49,234 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.45-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-03-01 19:47:49,246 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0022: Unregistered web context: '/entrevista-0.0.1-SNAPSHOT' from server 'default-server'
+2018-03-01 19:47:49,277 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/pruebaDS]
+2018-03-01 19:47:49,327 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = postgresql-42.1.4.jar
+2018-03-01 19:47:49,330 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+2018-03-01 19:47:49,393 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2018-03-01 19:47:49,408 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment postgresql-42.1.4.jar (runtime-name: postgresql-42.1.4.jar) in 193ms
+2018-03-01 19:47:49,418 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment postgresql (runtime-name: postgresql) in 234ms
+2018-03-01 19:47:49,424 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-03-01 19:47:49,446 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-03-01 19:47:49,447 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'entrevista-0.0.1-SNAPSHOT.war#entrevista'
+2018-03-01 19:47:49,449 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-03-01 19:47:49,450 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'entrevista-0.0.1-SNAPSHOT.war#entrevista'
+2018-03-01 19:47:49,451 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:/FerreteriaDS]
+2018-03-01 19:47:49,454 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.45-bin.jar_com.mysql.jdbc.Driver_5_1
+2018-03-01 19:47:49,458 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment mysql (runtime-name: mysql-connector-java-5.1.45-bin.jar) in 243ms
+2018-03-01 19:47:49,460 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-03-01 19:47:49,460 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-03-01 19:47:49,466 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2018-03-01 19:47:49,466 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-03-01 19:47:49,467 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 1.4.18.Final stopping
+2018-03-01 19:47:49,470 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment entrevista-0.0.1-SNAPSHOT.war (runtime-name: entrevista-0.0.1-SNAPSHOT.war) in 257ms
+2018-03-01 19:47:49,507 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) stopped in 257ms
